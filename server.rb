@@ -1,6 +1,6 @@
 require 'sinatra'
-set :port, 9494
+set :port, 80
 
 get '/hi' do
-    'Hello, Man!'
+    'Hello, Man! How is it going?'
 end
